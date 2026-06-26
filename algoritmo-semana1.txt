@@ -1,0 +1,10 @@
+Cómo organizar un trabajo colaborativo con Git
+
+Crear un repositorio para almacenar el proyecto.
+Agregar a los integrantes del equipo con los permisos necesarios.
+Clonar el repositorio en cada computador de trabajo.
+Crear una rama para desarrollar cada tarea de forma independiente.
+Guardar los cambios realizados mediante commits con mensajes claros.
+Subir los cambios al repositorio remoto.
+Revisar y unir las ramas al proyecto principal después de verificar que no haya errores.
+Mantener el repositorio actualizado para que todo el equipo trabaje sobre la versión más reciente.
