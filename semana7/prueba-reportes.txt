@@ -1,0 +1,83 @@
+PRUEBA DE RUTAS /reportes
+
+
+1. RUTA POST /reportes
+-----------------------
+Método: POST
+URL: https://super-journey-xxxx-3007.app.github.dev/reportes
+Headers: Content-Type: application/json
+Body enviado:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta recibida (código 201 Created):
+{
+  "estado": "Reporte creado exitosamente",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público",
+    "fecha": "2026-06-26T15:30:00.000Z"
+  }
+}
+
+¿Qué hace esta ruta?
+- Recibe datos en formato JSON con los campos "tipo" y "descripcion".
+- Valida que ambos campos estén presentes.
+- Crea un objeto reporte con un ID autoincremental y la fecha actual.
+- Almacena el reporte en un arreglo en memoria.
+- Devuelve el reporte creado con un estado de éxito.
+
+2. RUTA GET /reportes
+----------------------
+Método: GET
+URL: https://super-journey-xxxx-3007.app.github.dev/reportes
+
+Respuesta recibida (código 200 OK):
+{
+  "total": 2,
+  "reportes": [
+    {
+      "id": 1,
+      "tipo": "Infraestructura",
+      "descripcion": "Daño en alumbrado público",
+      "fecha": "2026-06-26T15:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "tipo": "Seguridad",
+      "descripcion": "Falta de iluminación en parque",
+      "fecha": "2026-06-26T15:35:00.000Z"
+    }
+  ]
+}
+
+¿Qué hace esta ruta?
+- Devuelve todos los reportes almacenados hasta el momento.
+- Incluye el total de reportes y el listado completo.
+- Los reportes se devuelven en formato JSON.
+
+3. COMPORTAMIENTO Y OBSERVACIONES
+----------------------------------
+- Las rutas funcionan correctamente en el puerto 3007.
+- Los reportes se almacenan en memoria RAM (volátil). Al reiniciar el servidor, los reportes se pierden.
+- La ruta POST valida que los campos "tipo" y "descripcion" estén presentes; si faltan, devuelve un error 400.
+- La ruta GET devuelve un arreglo vacío si no hay reportes ("total": 0, "reportes": []).
+- La respuesta de POST incluye la fecha y un ID único para cada reporte, lo que facilita su identificación.
+
+4. APLICACIÓN COMUNITARIA
+--------------------------
+Estas rutas podrían servir en una aplicación comunitaria para:
+- Registrar incidencias o problemas en el barrio (infraestructura, seguridad, limpieza, etc.).
+- Consultar el historial de reportes para dar seguimiento.
+- Generar estadísticas sobre los tipos de problemas más frecuentes.
+- Permitir a los ciudadanos reportar y a los administradores visualizar los reportes.
+
+5. PRUEBAS REALIZADAS
+---------------------
+Se enviaron 2 reportes vía POST.
+Se consultaron los reportes vía GET.
+Se verificó que los datos enviados coinciden con los devueltos.
+Se comprobó que la validación funciona (envío sin campos da error 400).

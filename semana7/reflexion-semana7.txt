@@ -1,0 +1,8 @@
+Es importante que las comunidades puedan registrar y consultar reportes o incidencias en una plataforma tecnológica porque esto facilita la organización 
+y el seguimiento de los problemas que afectan a sus integrantes. Al contar con un sistema centralizado, la información queda almacenada de forma ordenada 
+y puede consultarse cuando sea necesario. Esto permite identificar situaciones recurrentes, establecer prioridades y dar respuesta de manera más rápida y 
+eficiente. Además, los reportes documentados sirven como evidencia para apoyar la toma de decisiones y la gestión ante las autoridades o entidades responsables. 
+Una plataforma de este tipo también promueve la transparencia, ya que los usuarios pueden conocer el estado de los reportes y verificar las acciones realizadas.
+Asimismo, fomenta la participación ciudadana al ofrecer un canal sencillo para comunicar necesidades o sugerencias. Cuando la información está bien organizada 
+y es fácil de consultar, aumenta la confianza entre los miembros de la comunidad y se fortalece el trabajo colaborativo para encontrar soluciones a los problemas 
+comunes.

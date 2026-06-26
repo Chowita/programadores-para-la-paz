@@ -1,0 +1,37 @@
+EJEMPLO 1: Reporte de Infraestructura
+-------------------------------------
+Tipo: "Infraestructura"
+Descripción: "Daño en alumbrado público en la calle 5 con carrera 8"
+
+Contexto comunitario:
+- Los vecinos han reportado que la luminaria está dañada desde hace 3 días.
+- La falta de iluminación genera inseguridad en la zona nocturna.
+- Afecta principalmente a adultos mayores que transitan por la calle.
+
+Estructura propuesta en el sistema:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público en la calle 5 con carrera 8",
+  "ubicacion": "Calle 5 con Carrera 8, Barrio El Centro",
+  "urgencia": "Alta",
+  "fecha_reporte": "2026-06-26T15:30:00.000Z"
+}
+
+EJEMPLO 2: Reporte Ambiental
+----------------------------
+Tipo: "Ambiente"
+Descripción: "Acumulación de residuos en zona comunitaria del parque principal"
+
+Contexto comunitario:
+- Los contenedores de basura del parque están desbordados desde hace una semana.
+- La acumulación de residuos atrae insectos y roedores.
+- Afecta la salubridad y el disfrute del espacio público.
+
+Estructura propuesta en el sistema:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en zona comunitaria del parque principal",
+  "ubicacion": "Parque Principal, frente a la iglesia",
+  "urgencia": "Media",
+  "fecha_reporte": "2026-06-26T15:40:00.000Z"
+}
