@@ -1,0 +1,8 @@
+Las APIs desempeñan un papel muy importante porque permiten que diferentes aplicaciones y plataformas intercambien información de forma rápida y organizada. 
+En una comunidad, pueden utilizarse para compartir reportes, alertas, eventos o noticias sin necesidad de duplicar la información en varios sistemas. 
+Por ejemplo, una API puede enviar automáticamente una alerta sobre una emergencia o una convocatoria a diferentes aplicaciones, páginas web o dispositivos 
+móviles al mismo tiempo. Esto facilita que la información llegue de manera oportuna a todas las personas interesadas. Además, las APIs ayudan a mantener 
+los datos actualizados, ya que cualquier cambio realizado en un sistema se refleja automáticamente en los demás. También permiten integrar servicios como 
+mapas, notificaciones o formularios para mejorar la comunicación con la comunidad. Gracias a su organización y automatización, se reduce el riesgo de errores 
+y se agiliza la gestión de la información. En consecuencia, las APIs fortalecen la participación ciudadana, mejoran la coordinación entre los miembros de la
+ comunidad y permiten ofrecer servicios digitales más eficientes, accesibles y confiables.

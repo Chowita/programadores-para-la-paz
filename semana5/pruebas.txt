@@ -1,0 +1,26 @@
+PRUEBAS DEL SERVIDOR EXPRESS
+
+Fecha: 26/06/2026
+
+1. Ruta: /
+   URL: https://super-journey-gxxqq6xjr76gfvx64-3001.app.github.dev/
+   Método: GET
+   Resultado: "Servidor activo"
+   Descripción: Esta es la ruta principal del servidor. Responde con un mensaje de bienvenida indicando que el servidor está funcionando correctamente.
+
+2. Ruta: /saludo
+   URL: https://super-journey-gxxqq6xjr76gfvx64-3001.app.github.dev//saludo
+   Método: GET
+   Resultado: "Hola comunidad"
+   Descripción: Esta ruta devuelve un saludo genérico a toda la comunidad. Es una respuesta fija que no recibe parámetros.
+
+3. Ruta: /mensaje/:nombre
+   URL: https://super-journey-gxxqq6xjr76gfvx64-3001.app.github.dev//mensaje/juan
+   Método: GET
+   Resultado: "Hola juan"
+   Descripción: Esta ruta es dinámica. El parámetro ":nombre" se reemplaza por el valor que se escriba en la URL. En este caso, al escribir "juan", el servidor responde con un saludo personalizado "Hola juan". Si se cambiara por otro nombre, la respuesta se adaptaría.
+
+Observaciones adicionales:
+- El servidor utiliza Express.js y corre en el puerto 3001
+- Todas las rutas GET funcionan correctamente
+- El servidor también tiene una ruta POST (/reporte) para recibir datos en formato JSON

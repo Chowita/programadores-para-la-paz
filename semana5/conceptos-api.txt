@@ -1,0 +1,60 @@
+RUTA POST EN EXPRESS
+
+1. ¿QUÉ HACE ESTA RUTA?
+------------------------
+
+Ruta: /reporte
+Método: POST
+Función: Recibe datos en formato JSON y devuelve una respuesta confirmando la recepción.
+
+Código:
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+Explicación detallada:
+- app.post(): Define que esta ruta solo acepta peticiones de tipo POST
+- '/reporte': La URL donde se enviarán los datos
+- req.body.mensaje: Extrae el campo "mensaje" del cuerpo de la petición
+- res.json(): Devuelve una respuesta en formato JSON
+- El servidor responde con un objeto que confirma la recepción y devuelve el mensaje recibido
+
+2. ¿PARA QUÉ PODRÍA SERVIR EN UNA APLICACIÓN COMUNITARIA?
+-----------------------------------------------------------
+
+Esta ruta POST podría tener múltiples aplicaciones en una plataforma comunitaria:
+
+a) Sistema de reportes de incidencias:
+   - Los vecinos pueden reportar problemas en su comunidad (fugas de agua, calles en mal estado, alumbrado público dañado)
+   - El servidor recibe y almacena estos reportes para su posterior gestión
+
+b) Envío de sugerencias y propuestas:
+   - Los miembros de la comunidad pueden enviar ideas para mejorar el barrio
+   - La información se registra para ser evaluada por los líderes comunitarios
+
+c) Formulario de contacto:
+   - Los usuarios pueden enviar mensajes a los administradores de la comunidad
+   - Funciona como un buzón de sugerencias digital
+
+d) Encuestas y votaciones:
+   - Los miembros pueden enviar sus respuestas a encuestas comunitarias
+   - El servidor procesa y almacena las respuestas
+
+e) Sistema de notificaciones:
+   - Los ciudadanos pueden reportar emergencias o situaciones urgentes
+   - El sistema puede enviar alertas a otros miembros de la comunidad
+
+f) Registro de actividades:
+   - Los organizadores pueden reportar actividades realizadas en la comunidad
+   - Se lleva un historial de eventos y participaciones
+
+VENTAJAS PARA LA COMUNIDAD:
+- Centraliza la información en un solo lugar
+- Permite un seguimiento organizado de los reportes
+- Facilita la comunicación entre miembros y administradores
+- Genera datos estadísticos sobre las necesidades de la comunidad
+- Digitaliza procesos que antes se hacían de forma manual
