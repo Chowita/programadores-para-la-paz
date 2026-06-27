@@ -1,0 +1,3 @@
+1. Proteger contraseñas con combinaciones seguras y no compartirlas.
+2. No almacenar credenciales en archivos públicos ni en repositorios.
+3. Mantener el software actualizado para evitar vulnerabilidades.
