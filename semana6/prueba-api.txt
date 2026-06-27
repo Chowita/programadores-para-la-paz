@@ -2,14 +2,14 @@ PRUEBA DE API - RUTA POST /registro
 
 1. CONFIGURACIÓN DEL SERVIDOR
 -----------------------------
-- Puerto: 3005
+- Puerto: 3000
 - Middleware: express.json()
 - Ruta: /registro
 - Método: POST
 
 2. PETICIÓN ENVIADA
 -------------------
-URL: https://super-journey-gxxqq6xjr76gfvx64-3005.app.github.dev/registro
+URL: http://localhost:3000/registro
 Método: POST
 Headers: Content-Type: application/json
 Body:
@@ -30,9 +30,9 @@ Body:
 
 4. EXPLICACIÓN DEL PROCESO
 --------------------------
-1. El cliente envía una petición POST a /registro
-2. El middleware express.json() procesa el body JSON
-3. El servidor extrae los campos 'nombre' y 'mensaje' de req.body
-4. El servidor construye un objeto de respuesta
-5. res.json() convierte el objeto a JSON y lo envía al cliente
-6. El cliente recibe la confirmación con los datos enviados
+1. El cliente envía una petición POST a /registro.
+2. El middleware express.json() procesa el body JSON.
+3. El servidor extrae los campos nombre y mensaje desde req.body.
+4. El servidor construye un objeto de respuesta.
+5. res.json() convierte el objeto a JSON y lo envía al cliente.
+6. El cliente recibe una confirmación con los datos enviados.
