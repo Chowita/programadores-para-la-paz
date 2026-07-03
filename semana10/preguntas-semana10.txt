@@ -1,0 +1,7 @@
+Pregunta 1: Un backlog es una lista priorizada de tareas o funcionalidades por desarrollar.
+
+Pregunta 2: Una historia de usuario es una forma breve de expresar qué necesita un usuario y para qué lo necesita.
+
+Pregunta 3: El propósito principal de n8n en esta semana es automatizar tareas repetitivas y notificaciones de seguimiento no sensibles.
+
+Pregunta 4: Telegram puede servir como canal de coordinación, convocatoria y notificación comunitaria.
