@@ -1,0 +1,11 @@
+Una plataforma que promueve la participación ciudadana necesita una base de datos para almacenar y consultar información organizada sobre causas y apoyos.
+
+La autenticación de usuarios permite identificar a quienes participan y controlar quién puede crear, editar o eliminar contenidos.
+
+La protección de información es esencial para resguardar la privacidad de las personas y prevenir usos indebidos de datos sensibles.
+
+Sin trazabilidad sería difícil auditar acciones, detectar abusos o reconstruir eventos importantes; los registros ayudan a la transparencia.
+
+Además, combinar base de datos, autenticación y buenas prácticas de seguridad genera confianza en la comunidad y mejora la eficacia de la plataforma.
+
+Por ello, estas capas son fundamentales para una herramienta responsable y útil de participación ciudadana.

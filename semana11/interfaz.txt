@@ -1,0 +1,9 @@
+La interfaz tendría una sección para crear una nueva causa con campos para título, descripción y fecha.
+
+Una vista principal mostraría la lista de causas disponibles con resumen y botón para ver detalles.
+
+Cada causa mostraría un botón "Apoyar" y un contador de apoyos visible públicamente.
+
+También incluiría formularios de registro y login para usuarios, y una sección administrativa para gestionar causas (solo visible a usuarios autorizados).
+
+La interfaz debe ser clara, accesible y no mostrar información privada de los usuarios.

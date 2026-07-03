@@ -1,0 +1,6 @@
+Pregunta 1: 2
+Pregunta 2: 1
+Pregunta 3: 2
+Pregunta 4: 2
+
+Hecho: Carpeta semana11 creada con los archivos requeridos.
