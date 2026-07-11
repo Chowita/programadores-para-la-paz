@@ -1,0 +1,13 @@
+Entidad: Causa
+- id: identifica de forma única cada causa.
+- titulo: nombre breve de la causa.
+- descripcion: explica el motivo de la petición.
+- fecha: registra cuándo se creó la causa.
+
+Entidad: Apoyo
+- id: identifica cada apoyo registrado.
+- causa_id: enlaza el apoyo con una causa específica.
+- nombre: guarda el nombre de quien apoya.
+- fecha: registra cuándo se hizo el apoyo.
+
+Propósito general: estas entidades permiten almacenar la información básica de una causa y de las personas que la apoyan, para luego generar un documento formal.

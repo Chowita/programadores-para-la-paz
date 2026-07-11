@@ -1,0 +1,5 @@
+Evento: nueva causa registrada en la plataforma.
+Mensaje: "Nueva causa creada en la plataforma Petición en 3 Clics".
+Información que no debe enviarse: cédulas, teléfonos, direcciones, comentarios sensibles o datos personales.
+
+Esta automatización puede realizarse con n8n o Telegram para notificar a los responsables de manera rápida y segura.
